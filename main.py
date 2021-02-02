@@ -105,6 +105,7 @@ def basic_calculator():
         
         # Print Factorial
         elif a == "8":
+            flag = 0
             try:
                 b = int(input("Enter the Number whose Factorial is to be found\n"))
             except:
