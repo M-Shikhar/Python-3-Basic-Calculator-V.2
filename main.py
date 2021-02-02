@@ -118,10 +118,10 @@ def basic_calculator():
                 except:
                     print("That's not a valid integer")
                     flag = 1
-            n = 0
-            f = 0
+            n = 1
+            f = 1
             while n != b:
-                f = f+n
+                f = f*n
                 n = n+1
             print("The Result is",f+b,"!")
             
